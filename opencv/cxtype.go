@@ -13,7 +13,7 @@ package opencv
 #cgo linux,arm linux,arm64 LDFLAGS: -lm
 #cgo darwin pkg-config: opencv
 #cgo freebsd pkg-config: opencv
-#cgo windows LDFLAGS: -lopencv_core242.dll -lopencv_imgproc242.dll -lopencv_photo242.dll -lopencv_highgui242.dll -lstdc++
+#cgo windows LDFLAGS: -lopencv_core2411.dll -lopencv_imgproc2411.dll -lopencv_photo2411.dll -lopencv_highgui2411.dll -lstdc++
 
 #include "opencv.h"
 #include <stdlib.h>
